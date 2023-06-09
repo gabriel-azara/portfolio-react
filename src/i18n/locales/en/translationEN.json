@@ -1,0 +1,17 @@
+{
+  "about": {
+    "title": "About Me",
+    "bio": "I graduated in Computer Science at PUC-GO in 2014 to 2018...",
+    "education": "Education",
+    "educationItem1": "Computer Science at PUC-GO",
+    "educationItem2": "English - Achieve Language"
+  },
+  "navbar":{
+    "home": "Home",
+    "about": "About Me",
+    "projects": "Projects"
+  },
+  "projects": {
+
+  }
+}

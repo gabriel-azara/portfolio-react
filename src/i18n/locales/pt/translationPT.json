@@ -1,0 +1,17 @@
+{
+  "about": {
+    "title": "Sobre Mim",
+    "bio": "Me graduei em Ciência da Computação na PUC-GO de 2014 a 2018 e desde a graduação segui os passos dos meus pais, e dediquei a cuidar dos negócios da família, onde aprendi a lidar com pessoas...",
+    "education": "Formação",
+    "educationItem1": "Ciência da Computação na PUC-GO",
+    "educationItem2": "Inglês - Achieve Language"
+  },
+  "navbar":{
+    "home": "Inicio",
+    "about": "Sobre Mim",
+    "projects": "Projetos"
+  },
+  "projects": {
+    
+  }
+}

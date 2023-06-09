@@ -1,0 +1,26 @@
+body {
+  background-color: #333;
+  color: #f7f7f7;
+}
+
+.navbar {
+  background-color: #353535;
+}
+
+.navbar ul li a {
+  color: #d6d6d6;
+}
+
+.project {
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+#language-select {
+  background-color: #000000;
+  color: #dadada;
+}
+
+#theme-toggle {
+  background-color: #000000;
+  color: #dadada;
+}
