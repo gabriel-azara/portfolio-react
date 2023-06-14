@@ -29,6 +29,7 @@ const About = () => {
         <h3>Soft Skills</h3>
         <ul>
           <li>Algo</li>
+          <li>Algo</li>
         </ul>
       </section>
     </div>

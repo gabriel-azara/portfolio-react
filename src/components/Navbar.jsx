@@ -1,7 +1,7 @@
 import React from 'react';
-import ThemeToggle from './ThemeToggle';
+import ThemeToggle from './Theme/ThemeToggle';
 // import LanguageToggle from './LanguageToggle';
-import LanguageSelector from './LanguageSelector';
+import LanguageSelector from './Language/LanguageSelector';
 import { useTranslation } from 'react-i18next';
 
 function Navbar() {

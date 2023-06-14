@@ -1,0 +1,13 @@
+.documentation{
+  max-width: auto;
+  margin: 0 6rem;
+}
+
+.documentation section {
+  margin: 0;
+}
+
+.documentation img {
+  border-radius: 0;
+  width: fit-content;
+}

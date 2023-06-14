@@ -5,8 +5,8 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-import { ThemeProvider } from './components/ThemeContext';
-import { useTranslation } from 'react-i18next';
+import { ThemeProvider } from './components/Theme/ThemeContext';
+import AboutThis from './components/AboutThis'
 
 
 const App = () => {
@@ -16,7 +16,6 @@ const App = () => {
     setTheme(prevTheme => (prevTheme === 'light' ? 'dark' : 'light'));
   };
 
-  // const { t } = useTranslation();
 
   return (
     <ThemeProvider value={{ theme, toggleTheme }}>
@@ -24,6 +23,7 @@ const App = () => {
         <Navbar />
         <Header />
         <About />
+        <AboutThis />
         <Projects />
         <Footer />
       </div>
