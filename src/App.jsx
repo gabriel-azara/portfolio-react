@@ -19,6 +19,7 @@ const App = () => {
 
   return (
     <ThemeProvider value={{ theme, toggleTheme }}>
+    {/* <ThemeProvider /> */}
       <div className={`app ${theme}`}>
         <Navbar />
         <Header />

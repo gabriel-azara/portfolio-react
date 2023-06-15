@@ -280,3 +280,8 @@ footer {
 #contact ul li a span {
   margin-left: 5px;
 }
+
+
+.project-img{
+  max-width: 800px;
+}

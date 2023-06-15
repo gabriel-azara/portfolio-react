@@ -13,7 +13,7 @@ function Projects() {
         <p>Project made for expenses and showing some charts.</p>
         <a href="https://expenses-react-six.vercel.app/">
           <p>Click on here or in the image to proceed to the project link.</p>
-        <img src={imgProject} alt='project'/></a>
+        <img className='project-img' src={imgProject} alt='project'/></a>
       </div>
       <div className="project">
         <h3>Título do Projeto 2</h3>
