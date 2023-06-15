@@ -8,8 +8,9 @@ function Projects() {
     <section id="projects">
       <h2>Meus Projetos</h2>
       <div className="project">
-        <h3>Título do Projeto 1</h3>
-        <p>Descrição breve do projeto 1.</p>
+        <h3>Expenses</h3>
+        <p>Project made for expenses and showing some charts</p>
+        <a href="https://expenses-react-six.vercel.app/">Expenses</a>
       </div>
       <div className="project">
         <h3>Título do Projeto 2</h3>
