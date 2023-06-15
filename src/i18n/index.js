@@ -14,6 +14,9 @@ const resources = {
   },
   'en-US': {
     translation: translationEN
+  },
+  'pt': {
+    translation: translationPT
   }
 }
 
