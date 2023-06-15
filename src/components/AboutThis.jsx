@@ -29,7 +29,7 @@ const AboutThis = () => {
           <p>Falar sobre troca do tema</p>
         </li>
         <li>
-          <h3>Troca de língua/Internacionalização(i18n)</h3>
+          <h3>Troca de idioma/Internacionalização(i18n)</h3>
           <p>Falar sobre troca de línguas</p>
         </li>
         <li>
