@@ -11,6 +11,10 @@
     "about": "Sobre Mim",
     "projects": "Projetos"
   },
+  "portfolio":{
+    "title": "Documentação do Portfólio",
+    "about" : "Visão Geral"
+  },
   "projects": {
     
   }
