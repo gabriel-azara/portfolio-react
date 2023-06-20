@@ -17,9 +17,9 @@ const LanguageSelector = () => {
 
   return (
     <select id="language-select" defaultValue={navigator.language} onChange={handleChangeLanguage}>
-      <option value={navigator.language}>
+      {/* <option value={navigator.language}>
         {navigator.language}
-      </option>
+      </option> */}
       <option value="pt-BR" defaultValue={isCurrentLanguage('pt-BR')}>
         Português
       </option>
