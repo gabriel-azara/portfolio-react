@@ -9,6 +9,7 @@
   "navbar":{
     "home": "Home",
     "about": "About Me",
+    "thisProject": "This Project",
     "projects": "Projects"
   },
   "portfolio":{

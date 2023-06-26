@@ -4,7 +4,7 @@ import img1 from '../assets/images/components.png';
 
 const AboutThis = () => {
   return (
-    <div className="documentation">
+    <div id="documentation">
       <h2>Documentação do Portfólio</h2>
       <p>
         Este é um documento que descreve as principais funcionalidades do meu
@@ -22,7 +22,7 @@ const AboutThis = () => {
         <li>
           <h3>Componentes</h3>
           <p>Falar sobre componentes</p>
-          <img src={img1} alt="" />
+          <img className='imgPortfolio' src={img1} alt="" />
         </li>
         <li>
           <h3>Troca de tema</h3>

@@ -1,0 +1,19 @@
+ul li a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 0 5px; */
+  /* padding: 0 5px; */
+  /* border: 1px solid gray;
+  border-radius: 8px; */
+}
+
+/* ul li a:hover{
+  background-color: #0D1117;
+} */
+
+ul li a svg{
+  margin-right: 5px;
+}
+
+

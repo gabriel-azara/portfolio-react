@@ -1,13 +1,29 @@
-.documentation{
+#documentation{
   max-width: auto;
   margin: 0 6rem;
 }
 
-.documentation section {
+#documentation section {
   margin: 0;
 }
 
-.documentation img {
-  border-radius: 0;
+#documentation img {
+  border-radius: 8px;
   width: fit-content;
+}
+
+
+.imgPortfolio{
+  max-width: 800px;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .imgPortfolio{
+    max-width: 100%;
+  }
+
+  #documentation section, h3 {
+    max-width: 100%;
+  }
 }

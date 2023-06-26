@@ -28,9 +28,15 @@ function Footer() {
         </ul>
       </section>
       <p>&copy; Gabriel Azara.</p>
-      <a href="./Currículo Gabriel Azara.pdf" download className="downloadBtn">
-        Download Curriculo
-      </a>
+      <div className="downloadBtn-container">
+        <a
+          href="./Currículo Gabriel Azara.pdf"
+          download
+          className="downloadBtn"
+        >
+          Download Curriculo
+        </a>
+      </div>
     </footer>
   );
 }
