@@ -4,7 +4,7 @@ import img1 from '../assets/images/components.png';
 
 const AboutThis = () => {
   return (
-    <div id="documentation">
+    <section id="documentation">
       <h2>Documentação do Portfólio</h2>
       <p className='documentationIntro'>
         Este é um documento que descreve as principais funcionalidades do meu
@@ -45,7 +45,7 @@ const AboutThis = () => {
         </li>
       </ul>
       </div>
-    </div>
+    </section>
   );
 };
 
