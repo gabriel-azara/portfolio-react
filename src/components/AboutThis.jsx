@@ -10,14 +10,14 @@ const AboutThis = () => {
         Este é um documento que descreve as principais funcionalidades do meu
         projeto de portfólio desenvolvido em React.
       </p>
-      <h2>Visão Geral</h2>
+      <h3>Visão Geral</h3>
       <p>
         Meu projeto de portfólio é uma aplicação web que apresenta minha
         experiência, habilidades e projetos. É uma forma de apresentar meu
         trabalho e permitir que potenciais empregadores, clientes ou
         colaboradores conheçam mais sobre mim e meus projetos.
       </p>
-      <h2>O que foi utilizado nesse portfólio</h2>
+      <h3>O que foi utilizado nesse portfólio</h3>
       <ul>
         <li>
           <h3>Componentes</h3>

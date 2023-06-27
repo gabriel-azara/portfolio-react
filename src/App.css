@@ -94,7 +94,7 @@ h2{
 }
 
 .project {
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 0.15rem 0.35rem rgba(0, 0, 0, 0.1);

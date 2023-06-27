@@ -1,14 +1,14 @@
-.projectsTitle{
+.projectsTitle {
   display: flex;
   justify-content: center;
 }
 
-.projectTitle{
+.projectTitle {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.projectTitle span{
+.projectTitle span {
   margin-left: 16px;
   display: flex;
   justify-content: center;
@@ -28,15 +28,32 @@
 
 .projectLink:hover {
   color: blue;
-} */ 
+} */
 
-.projectWrapper{
+.projectWrapper {
   display: flex;
   justify-content: center;
 }
 
-.projectImg{
-  max-width: 800px;
+.projectImg {
+  max-width: 500px;
   border-radius: 8px;
 }
 
+.techs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.techs svg {
+  font-size: 1.5rem;
+  margin-left: 5px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
