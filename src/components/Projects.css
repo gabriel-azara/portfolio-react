@@ -73,3 +73,15 @@
   border-radius: 8px;
   background-color: #1b2533;;
 }
+
+@media (max-width: 768px) {
+  .projectImg {
+    max-width: 300px;
+    border-radius: 8px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
