@@ -1,0 +1,19 @@
+.links{
+  display: flex;
+}
+/* 
+.projectDescription,  */
+.projectLink{
+  text-align: center;
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.1s ease;
+}
+
+.projectLink:hover {
+  color: blue;
+}
+
+.projectLink svg {
+  margin-right: 5px;
+}

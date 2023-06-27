@@ -87,6 +87,12 @@ p {
   margin-bottom: 10px;
 }
 
+h2{
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
 .project {
   margin-bottom: 15px;
   padding: 10px;
@@ -308,11 +314,6 @@ footer {
   margin-left: 5px;
 }
 
-
-.project-img{
-  max-width: 800px;
-  border-radius: 8px;
-}
 
 @media (max-width: 768px) {
   .project-img{

@@ -4,7 +4,7 @@ import ThemeToggle from './Theme/ThemeToggle';
 import LanguageSelector from './Language/LanguageSelector';
 import { useTranslation } from 'react-i18next';
 import { UserRectangle, House, Notebook, FileDoc } from '@phosphor-icons/react';
-import style from './Navbar.module.css'
+import './Navbar.css'
 
 function Navbar() {
   const { t } = useTranslation();

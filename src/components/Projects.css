@@ -1,0 +1,42 @@
+.projectsTitle{
+  display: flex;
+  justify-content: center;
+}
+
+.projectTitle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.projectTitle span{
+  margin-left: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .links{
+  display: flex;
+}
+/* 
+.projectDescription, .projectLink{
+  text-align: center;
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.1s ease;
+}
+
+.projectLink:hover {
+  color: blue;
+} */ 
+
+.projectWrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.projectImg{
+  max-width: 800px;
+  border-radius: 8px;
+}
+
