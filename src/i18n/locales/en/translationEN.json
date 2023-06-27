@@ -1,7 +1,12 @@
 {
   "about": {
     "title": "About Me",
-    "bio": "I graduated in Computer Science at PUC-GO in 2014 to 2018...",
+    "timeline": "My Timeline",
+    "bio2014": "I started study Computer Science at PUC-GO in february of 2014.",
+    "bio2018": "I finished my study at Computer Science at PUC-GO 2018.",
+    "bio2019": "I graduated at february, and started my own company that manufactury and sell jeans.",
+    "bio2022": "In 2022 I decided to create a website to improve my sells online, and I started to study programming again, in this website that I built, was built with html, css and wordpress, and in the august of 2022 I started studying JavaScript and december React.js",
+    "bio2023": "In 2023 I keep improving my JavaScript skills, and I kept studying React, where I started some little projects and this Portfolio",
     "education": "Education",
     "educationItem1": "Computer Science at PUC-GO",
     "educationItem2": "English - Achieve Language"

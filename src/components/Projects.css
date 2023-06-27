@@ -57,3 +57,19 @@
   grid-template-columns: 1fr 1fr;
   gap: 15px;
 }
+
+#projects {
+  padding: 0 15px 15px 15px;
+}
+
+/* Theme light */
+.app.light #projects {
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+/* Theme dark */
+.app.dark #projects {
+  border-radius: 8px;
+  background-color: #1b2533;;
+}

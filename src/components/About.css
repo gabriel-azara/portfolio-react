@@ -1,0 +1,14 @@
+#about {
+  padding: 0 6px 6px 6px;
+}
+
+/* Theme light */
+.app.light #about {
+  border-radius: 8px;
+  background-color: white;
+}
+/* Theme dark */
+.app.dark #about {
+  border-radius: 8px;
+  background-color: #1b2533;
+}

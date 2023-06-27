@@ -87,6 +87,10 @@ p {
   margin-bottom: 10px;
 }
 
+h3, p {
+  margin-left: 5px;
+}
+
 h2{
   display: flex;
   justify-content: center;
@@ -250,6 +254,13 @@ footer {
   color: #7db8e8;
 }
 
+.app.light .sections{
+  border-radius: 8px;
+  background-color: #e7e7e7;
+  padding: 1px 5px 5px 5px;
+  margin: 10px;
+}
+
 /* Estilos para o tema dark */
 .app.dark {
   background-color: #0D1117;
@@ -289,6 +300,13 @@ footer {
 
 .app.dark #contact ul li a:hover {
   color: #7db8e8;
+}
+
+.app.dark .sections {
+  border-radius: 8px;
+  background-color: #21262d;
+  padding: 1px 5px 5px 5px;
+  margin: 10px;
 }
 
 

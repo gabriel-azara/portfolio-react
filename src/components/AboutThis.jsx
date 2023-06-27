@@ -6,10 +6,11 @@ const AboutThis = () => {
   return (
     <div id="documentation">
       <h2>Documentação do Portfólio</h2>
-      <p>
+      <p className='documentationIntro'>
         Este é um documento que descreve as principais funcionalidades do meu
         projeto de portfólio desenvolvido em React.
       </p>
+      <div className="sections">
       <h3>Visão Geral</h3>
       <p>
         Meu projeto de portfólio é uma aplicação web que apresenta minha
@@ -17,6 +18,8 @@ const AboutThis = () => {
         trabalho e permitir que potenciais empregadores, clientes ou
         colaboradores conheçam mais sobre mim e meus projetos.
       </p>
+      </div>
+      <div className="sections">
       <h3>O que foi utilizado nesse portfólio</h3>
       <ul>
         <li>
@@ -41,6 +44,7 @@ const AboutThis = () => {
           <p>falar dos hooks</p>
         </li>
       </ul>
+      </div>
     </div>
   );
 };

@@ -1,6 +1,7 @@
 #documentation{
   max-width: auto;
   margin: 0 6rem;
+  padding: 0 6px 6px 6px;
 }
 
 #documentation section {
@@ -12,12 +13,31 @@
   width: fit-content;
 }
 
+#documentation:last-child{
+  margin-bottom: 15px;
+}
+
+.documentationIntro{
+  margin-left: 15px;
+}
+
 
 .imgPortfolio{
   max-width: 800px;
   border-radius: 8px;
 }
+/* Theme Light */
+.app.light #documentation{
+  border-radius: 8px;
+  background-color: white;
+}
+/* Theme dark */
+.app.dark #documentation{
+  border-radius: 8px;
+  background-color: #1b2533;
+}
 
+/* Responsive */
 @media (max-width: 768px) {
   .imgPortfolio{
     max-width: 100%;
