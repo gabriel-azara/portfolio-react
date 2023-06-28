@@ -13,22 +13,24 @@ import {
   faCss3Alt,
   faReact
 } from '@fortawesome/free-brands-svg-icons';
+import { useTranslation } from 'react-i18next';
 
 function Projects() {
+  const { t } = useTranslation();
   return (
     <section id="projects">
-      <h2 className="projectsTitle">Meus Projetos</h2>
+      <h2 className="projectsTitle">{t('projects.title')}</h2>
       <div className="grid-container">
         <div className="project">
           <div className="projectTitle">
-            <h3 className="projectTitles">Project 1 - Expenses</h3>
+            <h3 className="projectTitles">{t('projects.project')} 1 - {t('projects.project1')}</h3>
             <ProjectLinks
               codeSrc={'https://github.com/gabriel-azara/Expenses-React'}
               linkSrc={'https://expenses-react-six.vercel.app/'}
             />
           </div>
           <p className="projectDescription">
-            Project made for expenses and showing some charts. 
+          {t('projects.project1Text')}
           </p>
           <div className="projectWrapper">
             <a
@@ -40,7 +42,7 @@ function Projects() {
             </a>
           </div>
           <h4 className="techs">
-            It was built with:{' '}
+          {t('projects.build')}{' '}
             <FontAwesomeIcon icon={faHtml5} style={{ color: '#ff7b00' }} />
             <FontAwesomeIcon icon={faCss3Alt} style={{ color: '#1f71ff' }} />
             <FontAwesomeIcon icon={faReact} style={{ color: '#5291ff' }} />
@@ -69,7 +71,7 @@ function Projects() {
             </a>
           </div>
           <h4 className="techs">
-            It was built with:{' '}
+          {t('projects.build')}{' '}
             <FontAwesomeIcon icon={faHtml5} style={{ color: '#ff7b00' }} />
             <FontAwesomeIcon icon={faCss3Alt} style={{ color: '#1f71ff' }} />
             <FontAwesomeIcon icon={faReact} style={{ color: '#5291ff' }} />
@@ -98,7 +100,7 @@ function Projects() {
             </a>
           </div>
           <h4 className="techs">
-            It was built with:{' '}
+          {t('projects.build')}{' '}
             <FontAwesomeIcon icon={faHtml5} style={{ color: '#ff7b00' }} />
             <FontAwesomeIcon icon={faCss3Alt} style={{ color: '#1f71ff' }} />
             <FontAwesomeIcon icon={faReact} style={{ color: '#5291ff' }} />
@@ -127,7 +129,7 @@ function Projects() {
             </a>
           </div>
           <h4 className="techs">
-            It was built with:{' '}
+          {t('projects.build')}{' '}
             <FontAwesomeIcon icon={faHtml5} style={{ color: '#ff7b00' }} />
             <FontAwesomeIcon icon={faCss3Alt} style={{ color: '#1f71ff' }} />
             <FontAwesomeIcon icon={faReact} style={{ color: '#5291ff' }} />

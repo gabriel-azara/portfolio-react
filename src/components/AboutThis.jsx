@@ -1,49 +1,47 @@
 import React from 'react';
 import './AboutThis.css';
 import img1 from '../assets/images/components.png';
+import { useTranslation } from 'react-i18next';
 
 const AboutThis = () => {
+  const { t } = useTranslation();
   return (
     <section id="documentation">
-      <h2>Documentação do Portfólio</h2>
-      <p className='documentationIntro'>
-        Este é um documento que descreve as principais funcionalidades do meu
-        projeto de portfólio desenvolvido em React.
+      <h2>{t('portfolio.title')}</h2>
+      <p className="documentationIntro">
+      {t('portfolio.titleText')}
       </p>
       <div className="sections">
-      <h3>Visão Geral</h3>
-      <p>
-        Meu projeto de portfólio é uma aplicação web que apresenta minha
-        experiência, habilidades e projetos. É uma forma de apresentar meu
-        trabalho e permitir que potenciais empregadores, clientes ou
-        colaboradores conheçam mais sobre mim e meus projetos.
-      </p>
+        <h3>{t('portfolio.about')}</h3>
+        <p>
+        {t('portfolio.aboutText')}
+        </p>
       </div>
       <div className="sections">
-      <h3>O que foi utilizado nesse portfólio</h3>
-      <ul>
-        <li>
-          <h3>Componentes</h3>
-          <p>Falar sobre componentes</p>
-          <img className='imgPortfolio' src={img1} alt="" />
-        </li>
-        <li>
-          <h3>Troca de tema</h3>
-          <p>Falar sobre troca do tema</p>
-        </li>
-        <li>
-          <h3>Troca de idioma/Internacionalização(i18n)</h3>
-          <p>Falar sobre troca de línguas</p>
-        </li>
-        <li>
-          <h3>Utilização de Axios com API</h3>
-          <p>Falar sobre axios e API</p>
-        </li>
-        <li>
-          <h3> Utilização de hooks useState e useContext</h3>
-          <p>falar dos hooks</p>
-        </li>
-      </ul>
+        <h3>{t('portfolio.wasUsed')}</h3>
+        <ul>
+          <li>
+            <h3>{t('portfolio.components')}</h3>
+            <p>{t('portfolio.componentsText')}</p>
+            <img className="imgPortfolio" src={img1} alt="" />
+          </li>
+          <li>
+            <h3>{t('portfolio.themeChange')}</h3>
+            <p>{t('portfolio.themeChangeText')}</p>
+          </li>
+          <li>
+            <h3>{t('portfolio.languageToggle')}</h3>
+            <p>{t('portfolio.languageToggleText')}</p>
+          </li>
+          <li>
+            <h3>{t('portfolio.axios')}</h3>
+            <p>{t('portfolio.axiosText')}</p>
+          </li>
+          <li>
+            <h3>{t('portfolio.hooks')}</h3>
+            <p>{t('portfolio.hooksText')}</p>
+          </li>
+        </ul>
       </div>
     </section>
   );

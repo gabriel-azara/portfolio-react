@@ -1,26 +1,52 @@
 {
+  "navbar": {
+    "home": "Home",
+    "about": "About Me",
+    "thisProject": "About this Project",
+    "projects": "Projects"
+  },
   "about": {
     "title": "About Me",
     "timeline": "My Timeline",
-    "bio2014": "I started study Computer Science at PUC-GO in february of 2014.",
-    "bio2018": "I finished my study at Computer Science at PUC-GO 2018.",
-    "bio2019": "I graduated at february, and started my own company that manufactury and sell jeans.",
-    "bio2022": "In 2022 I decided to create a website to improve my sells online, and I started to study programming again, in this website that I built, was built with html, css and wordpress, and in the august of 2022 I started studying JavaScript and december React.js",
-    "bio2023": "In 2023 I keep improving my JavaScript skills, and I kept studying React, where I started some little projects and this Portfolio",
+    "bio2014": "I started study Computer Science at PUC-GO in February 2014.",
+    "bio2017": "Between August and December, during my 8th semester, I interned at IQUEGO (Industria Quimica do Estado de Goiás) in the IT support department, where I gained valuable experience working with networks and providing support to employees.",
+    "bio2018": "I studied various subjects, completed my thesis, and finished my undergraduate degree in December 2018.",
+    "bio2019": "The graduation ceremony took place in February 2019. Later that year, in December, I also started my own company specializing in manufacturing and selling denim clothing.",
+    "bio2022": "In 2022, I decided to create a website to improve online sales. I returned to studying programming after a hiatus and created a website using WordPress. I found it better to create my own theme, so I used HTML5, CSS3, Bootstrap, and SASS. In August 2022, I started studying JavaScript, and in December, I began learning React.js.",
+    "bio2023": "In 2023, I continued to enhance my knowledge and skills, particularly in JavaScript. I continued studying React and started working on several projects, including this portfolio, which was entirely created using React.js.",
     "education": "Education",
     "educationItem1": "Computer Science at PUC-GO",
-    "educationItem2": "English - Achieve Language"
+    "educationItem2": "English - Achieve Language",
+    "softSkill1": "Self-awareness and self-learning",
+    "softSkill2": "Time management",
+    "softSkill3": "Emotional intelligence"
   },
-  "navbar":{
-    "home": "Home",
-    "about": "About Me",
-    "thisProject": "This Project",
-    "projects": "Projects"
-  },
-  "portfolio":{
-    
+
+  "portfolio": {
+    "title": "Portfolio Documentation",
+    "titleText": "This is a document that describes the main features of my portfolio project developed in React.",
+    "about": "Overview",
+    "aboutText": "My portfolio project is a web application that showcases my experience, skills, and projects. It is a way to present my work and allow potential employers, clients, or collaborators to learn more about me and my projects.",
+    "wasUsed": "What was used to create this portfolio",
+    "components": "Components",
+    "componentsText": "Talk about components",
+    "themeChange": "Theme Change",
+    "themeChangeText": "Talk about theme change",
+    "languageToggle": "Language Toggle / Internationalization (i18n)",
+    "languageToggleText": "Talk about language toggle",
+    "axios": "Usage of Axios for API",
+    "axiosText": "Talk about Axios and API",
+    "hooks": "Usage of useState, useContext, and useEffect hooks",
+    "hooksText": "Talk about hooks"
   },
   "projects": {
-
+    "title": "My Projects",
+    "project": "Project",
+    "project1": "Expenses",
+    "project1Text": "A project created for managing expenses and displaying expense charts.",
+    "build": "It was built with: "
+  },
+  "footer": {
+    "download": "Download Resume"
   }
 }

@@ -1,22 +1,52 @@
 {
-  "about": {
-    "title": "Sobre Mim",
-    "bio": "Me graduei em Ciência da Computação na PUC-GO de 2014 a 2018 e desde a graduação segui os passos dos meus pais, e dediquei a cuidar dos negócios da família, onde aprendi a lidar com pessoas...",
-    "education": "Formação",
-    "educationItem1": "Ciência da Computação na PUC-GO",
-    "educationItem2": "Inglês - Achieve Language"
-  },
-  "navbar":{
+  "navbar": {
     "home": "Inicio",
     "about": "Sobre Mim",
     "thisProject": "Sobre esse Portfolio",
     "projects": "Projetos"
   },
-  "portfolio":{
+  "about": {
+    "title": "Sobre Mim",
+    "timeline": "Linha do Tempo",
+    "bio2014": "Iniciei os estudos em Ciência da Computação na PUC-GO em Fevereiro de 2014, onde aprendi diversas materias e conteudos.",
+    "bio2017": "Entre agosto e dezembro estagiei, quando estava no 8° periodo, e o estagio foi na IQUEGO(Industria Quimica do Estado de Goiás) na área de suporte de TI, onde aprendi bastante, trabalhando com a rede e suporte aos funcionários.",
+    "bio2018": "Estudei diversas materias, realizei meu TCC e terminei a graduação em dezembro de 2018.",
+    "bio2019": "A colação de grau foi feita em fevereiro de 2019, mais tarde naquele ano em dezembro também abri minha propria empresa de fabricação e venda de roupas jeans.",
+    "bio2022": "Em 2022 decidi criar um site para melhorar as vendas online, então comecei a estudar programação novamente depois de um tempo longe da programação, então criei um site em wordpress, onde achei melhor criar meu proprio tema, então criei utilizando HTML5, CSS3, Bootstrap e SASS, em Agosto de 2022 comecei a estudar JavaScript e dezembro React.js.",
+    "bio2023": "Em 2023 continuei aperfeiçoando os conhecimentos e habilidades, principalmente em JavaScript, e continuei estudando React, onde comecei a fazer alguns projetos, incluindo esse portfolio que foi inteiramente criado com React.js.",
+    "education": "Formação",
+    "educationItem1": "Ciência da Computação na PUC-GO",
+    "educationItem2": "Inglês - Achieve Language",
+    "softSkill1": "Autoconsciência e autoaprendizagem",
+    "softSkill2": "Gestão do tempo",
+    "softSkill3": "Inteligência emocional"
+  },
+
+  "portfolio": {
     "title": "Documentação do Portfólio",
-    "about" : "Visão Geral"
+    "titleText": "Este é um documento que descreve as principais funcionalidades do meu projeto de portfólio desenvolvido em React.",
+    "about": "Visão Geral",
+    "aboutText": "Meu projeto de portfólio é uma aplicação web que apresenta minha experiência, habilidades e projetos. É uma forma de apresentar meu trabalho e permitir que potenciais empregadores, clientes ou colaboradores conheçam mais sobre mim e meus projetos.",
+    "wasUsed": "O que foi utilizado para criação desse portfólio",
+    "components": "Componentes",
+    "componentsText": "Utilizei a componentização em React para dividir o codigo em multiplos trechos de codigo.",
+    "themeChange": "Troca de Temas",
+    "themeChangeText": "Falar a troca de tema",
+    "languageToggle": "Troca de idioma/Internacionalização(i18n)",
+    "languageToggleText": "Falar da troca de idioma",
+    "axios": "Utilização de Axios para API",
+    "axiosText": "Falar sobre axios e API",
+    "hooks": "Utilização de hooks useState e useContext e useEffect",
+    "hooksText": "falar dos hooks"
   },
   "projects": {
-    
+    "title": "Meus Projetos",
+    "project": "Projeto",
+    "project1": "Despesas",
+    "project1Text": "Projeto feito para despesas e mostrar graficos de despesas.",
+    "build": "Foi criado utilizando: "
+  },
+  "footer": {
+    "download": "Download Curriculo"
   }
 }

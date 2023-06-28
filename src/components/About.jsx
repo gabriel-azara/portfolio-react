@@ -25,20 +25,22 @@ const About = () => {
 
         <h3>Hard Skills</h3>
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
           <li>JavaScript</li>
           <li>TypeScript</li>
           <li>React.js</li>
           <li>WordPress</li>
+          <li>Bootstrap</li>
         </ul>
         </div>
         <div className="sections">
 
         <h3>Soft Skills</h3>
         <ul>
-          <li>Algo</li>
-          <li>Algo</li>
+          <li>{t('about.softSkill1')}</li>
+          <li>{t('about.softSkill2')}</li>
+          <li>{t('about.softSkill3')}</li>
         </ul>
         </div>
       </section>

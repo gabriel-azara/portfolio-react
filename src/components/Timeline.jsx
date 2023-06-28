@@ -13,6 +13,7 @@ const Timeline = () => {
 
   const timelineData = {
     2014: t('about.bio2014'),
+    2017: t('about.bio2017'),
     2018: t('about.bio2018'),
     2019: t('about.bio2019'),
     2022: t('about.bio2022'),
@@ -31,6 +32,15 @@ const Timeline = () => {
               selectedYear === 2014 ? 'selected' : ''
             }`}
             onClick={() => handleYearClick(2014)}
+          ></button>
+        </div>
+        <div className="timelineWrapper">
+          2017
+          <button
+            className={`timeline-button ${
+              selectedYear === 2017 ? 'selected' : ''
+            }`}
+            onClick={() => handleYearClick(2017)}
           ></button>
         </div>
         <div className="timelineWrapper">

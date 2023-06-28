@@ -3,8 +3,10 @@ import { UserRectangle, House, Notebook, FileDoc } from '@phosphor-icons/react';
 import './Navbar.css';
 import ThemeToggle from './Theme/ThemeToggle';
 import LanguageSelector from './Language/LanguageSelector';
+import { useTranslation } from 'react-i18next';
 
 function Navbar() {
+  const { t } = useTranslation();
   const [showMenu, setShowMenu] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const [showButtons, setShowButtons] = useState(true);
@@ -57,25 +59,25 @@ function Navbar() {
           <li>
             <a href="#home">
               <House size={20} />
-              Home
+              {t('navbar.home')}
             </a>
           </li>
           <li>
             <a href="#about">
               <UserRectangle size={20} />
-              About
+              {t('navbar.about')}
             </a>
           </li>
           <li>
             <a href="#documentation">
               <FileDoc size={20} />
-              Documentation
+              {t('navbar.thisProject')}
             </a>
           </li>
           <li>
             <a href="#projects">
               <Notebook size={20} />
-              Projects
+              {t('navbar.projects')}
             </a>
           </li>
         </ul>

@@ -1,14 +1,33 @@
 import React from 'react';
-// import '../styles/styles.css'; // Importe a folha de estilos CSS
-// import '../styles/styles-dark.css';
-// import '../styles/styles-light.css';
+import { useTranslation } from 'react-i18next';
 import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 
 function Footer() {
+  const { t, i18n } = useTranslation();
+
+  const handleResumeDownload = () => {
+    const language = i18n.language.toLowerCase();
+    let resumeFile;
+
+    if (language === 'pt' || language === 'pt-br') {
+      resumeFile = 'Resume PT.pdf';
+    } else if (language === 'en' || language === 'en-us') {
+      resumeFile = 'Resume EN.pdf';
+    }
+
+    if (resumeFile) {
+      // Create a temporary link and trigger the download
+      const link = document.createElement('a');
+      link.href = process.env.PUBLIC_URL + `${resumeFile}`;
+      link.download = `Resume ${language.toUpperCase()}.pdf`;
+      link.click();
+    }
+  };
+
   return (
     <footer>
       <section id="contact">
-        <h4 id="links">Links</h4>
+        <h4 id="links">{t('footer.links')}</h4>
         <ul>
           <li>
             <a href="https://www.linkedin.com/in/gabriel-azara">
@@ -27,15 +46,11 @@ function Footer() {
           </li>
         </ul>
       </section>
-      <p>&copy; Gabriel Azara.</p>
+      <p>&copy; Gabriel Ázara.</p>
       <div className="downloadBtn-container">
-        <a
-          href="./Currículo Gabriel Azara.pdf"
-          download
-          className="downloadBtn"
-        >
-          Download Curriculo
-        </a>
+        <button onClick={handleResumeDownload} className="downloadBtn">
+          {t('footer.download')}
+        </button>
       </div>
     </footer>
   );
