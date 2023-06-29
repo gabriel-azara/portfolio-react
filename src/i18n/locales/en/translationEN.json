@@ -42,8 +42,10 @@
   "projects": {
     "title": "My Projects",
     "project": "Project",
-    "project1": "Expenses",
-    "project1Text": "A project created for managing expenses and displaying expense charts.",
+    "project1": "Ázara Jeans",
+    "project1Text": "A personal project that is similar to the store that I created in WordPress in 2022, and now I decided to recreate in React, using Next.js and Tailwind and TypeScript.",
+    "project2": "Expenses",
+    "project2Text": "A project created for managing expenses and displaying expense charts",
     "build": "It was built with: "
   },
   "footer": {

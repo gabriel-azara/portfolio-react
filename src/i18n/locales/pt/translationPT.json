@@ -42,8 +42,10 @@
   "projects": {
     "title": "Meus Projetos",
     "project": "Projeto",
-    "project1": "Despesas",
-    "project1Text": "Projeto feito para despesas e mostrar graficos de despesas.",
+    "project1": "Ázara Jeans",
+    "project1Text": "Um projeto pessoal que é semelhante à loja que criei no WordPress em 2022 e agora decidi recriar em React, usando Next.js, Tailwind e TypeScript.",
+    "project2": "Despesas",
+    "project2Text": "Projeto feito para despesas e mostrar graficos de despesas.",
     "build": "Foi criado utilizando: "
   },
   "footer": {
