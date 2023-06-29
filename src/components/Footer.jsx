@@ -27,7 +27,7 @@ function Footer() {
   return (
     <footer>
       <section id="contact">
-        <h4 id="links">{t('footer.links')}</h4>
+        <h4 id="links"></h4>
         <ul>
           <li>
             <a href="https://www.linkedin.com/in/gabriel-azara">
