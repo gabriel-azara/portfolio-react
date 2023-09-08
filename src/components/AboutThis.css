@@ -1,4 +1,4 @@
-#documentation{
+#documentation {
   max-width: auto;
   /* margin: 0 6rem; */
   padding: 0 6px 6px 6px;
@@ -13,37 +13,48 @@
   width: fit-content;
 }
 
-#documentation:last-child{
+#documentation:last-child {
   margin-bottom: 15px;
 }
 
-.documentationIntro{
+.sections h5{
+  text-align: center;
+}
+
+.sections img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.documentationIntro {
   margin-left: 15px;
 }
 
-
-.imgPortfolio{
+.imgPortfolio {
   max-width: 800px;
   border-radius: 8px;
 }
 /* Theme Light */
-.app.light #documentation{
+.app.light #documentation {
   border-radius: 8px;
   background-color: white;
 }
 /* Theme dark */
-.app.dark #documentation{
+.app.dark #documentation {
   border-radius: 8px;
   background-color: #1b2533;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
-  .imgPortfolio{
+  .imgPortfolio {
     max-width: 100%;
   }
 
-  #documentation section, h3 {
+  #documentation section,
+  h3 {
     max-width: 100%;
   }
 }
