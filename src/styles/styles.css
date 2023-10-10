@@ -17,6 +17,10 @@ body {
   /* padding: 20px; */
 }
 
+h2{
+  padding-top: 12px;
+}
+
 .navbar {
   background-color: #f2f2f2;
   display: flex;

@@ -48,17 +48,26 @@ function Projects() {
             {t('projects.build')}{' '}
             {/* <FontAwesomeIcon icon={faHtml5} style={{ color: '#ff7b00' }} />
             <FontAwesomeIcon icon={faCss3Alt} style={{ color: '#1f71ff' }} /> */}
-            <FontAwesomeIcon icon={faReact} style={{ color: '#5291ff' }} />
-            <TbBrandNextjs />
-            <BiLogoTypescript style={{ color: 'blue' }}/>
-            <BiLogoTailwindCss style={{ color: '#0ea5e9 ' }}/>
+            <FontAwesomeIcon
+              title="React"
+              icon={faReact}
+              style={{ color: '#5291ff' }}
+            />
+            <TbBrandNextjs title="next.js" />
+            <BiLogoTypescript title="Typescript" style={{ color: 'blue' }} />
+            <BiLogoTailwindCss
+              title="Tailwind.css"
+              style={{ color: '#0ea5e9 ' }}
+            />
           </h4>
         </div>
         <div className="project">
           {/* <h3>Título do Projeto 2</h3>
         <p>Descrição breve do projeto 2.</p> */}
           <div className="projectTitle">
-            <h3 className="projectTitles">{t('projects.project')} 2 - Expenses</h3>
+            <h3 className="projectTitles">
+              {t('projects.project')} 2 - Expenses
+            </h3>
             <ProjectLinks
               codeSrc={'https://github.com/gabriel-azara/Expenses-React'}
               linkSrc={'https://expenses-react-six.vercel.app/'}
@@ -78,9 +87,21 @@ function Projects() {
           </div>
           <h4 className="techs">
             {t('projects.build')}{' '}
-            <FontAwesomeIcon icon={faHtml5} style={{ color: '#ff7b00' }} />
-            <FontAwesomeIcon icon={faCss3Alt} style={{ color: '#1f71ff' }} />
-            <FontAwesomeIcon icon={faReact} style={{ color: '#5291ff' }} />
+            <FontAwesomeIcon
+              title="HTML"
+              icon={faHtml5}
+              style={{ color: '#ff7b00' }}
+            />
+            <FontAwesomeIcon
+              title="CSS"
+              icon={faCss3Alt}
+              style={{ color: '#1f71ff' }}
+            />
+            <FontAwesomeIcon
+              title="React"
+              icon={faReact}
+              style={{ color: '#5291ff' }}
+            />
           </h4>
         </div>
         <div className="project">
