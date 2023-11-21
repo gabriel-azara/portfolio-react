@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import About from './components/About';
+import Github from './components/Github'
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
@@ -24,6 +25,7 @@ const App = () => {
         <Navbar />
         <Header />
         <About />
+        {/* <Github /> */}
         <AboutThis />
         <Projects />
         <Footer />

@@ -34,7 +34,7 @@ function Projects() {
               linkSrc={'https://ecommerce-react-xi-nine.vercel.app/'}
             />
           </div>
-          <p className="projectDescription">{t('projects.project1Text')}</p>
+
           <div className="projectWrapper">
             <a
               className="projectLink"
@@ -44,6 +44,7 @@ function Projects() {
               <img className="projectImg" src={imgProject1} alt="project" />
             </a>
           </div>
+          <p className="projectDescription">{t('projects.project1Text')}</p>
           <h4 className="techs">
             {t('projects.build')}{' '}
             {/* <FontAwesomeIcon icon={faHtml5} style={{ color: '#ff7b00' }} />
@@ -73,9 +74,7 @@ function Projects() {
               linkSrc={'https://expenses-react-six.vercel.app/'}
             />
           </div>
-          <p className="projectDescription">
-            Project made for expenses and showing some charts.
-          </p>
+
           <div className="projectWrapper">
             <a
               className="projectLink"
@@ -85,6 +84,9 @@ function Projects() {
               <img className="projectImg" src={imgProject2} alt="project" />
             </a>
           </div>
+          <p className="projectDescription">
+            Project made for expenses and showing some charts.
+          </p>
           <h4 className="techs">
             {t('projects.build')}{' '}
             <FontAwesomeIcon
@@ -114,9 +116,7 @@ function Projects() {
               linkSrc={'https://expenses-react-six.vercel.app/'}
             />
           </div>
-          <p className="projectDescription">
-            Project made for expenses and showing some charts.
-          </p>
+
           <div className="projectWrapper">
             <a
               className="projectLink"
@@ -126,6 +126,9 @@ function Projects() {
               <img className="projectImg" src={imgProject2} alt="project" />
             </a>
           </div>
+          <p className="projectDescription">
+            Project made for expenses and showing some charts.
+          </p>
           <h4 className="techs">
             {t('projects.build')}{' '}
             <FontAwesomeIcon icon={faHtml5} style={{ color: '#ff7b00' }} />
@@ -143,9 +146,7 @@ function Projects() {
               linkSrc={'https://expenses-react-six.vercel.app/'}
             />
           </div>
-          <p className="projectDescription">
-            Project made for expenses and showing some charts.
-          </p>
+
           <div className="projectWrapper">
             <a
               className="projectLink"
@@ -155,6 +156,9 @@ function Projects() {
               <img className="projectImg" src={imgProject2} alt="project" />
             </a>
           </div>
+          <p className="projectDescription">
+            Project made for expenses and showing some charts.
+          </p>
           <h4 className="techs">
             {t('projects.build')}{' '}
             <FontAwesomeIcon icon={faHtml5} style={{ color: '#ff7b00' }} />
